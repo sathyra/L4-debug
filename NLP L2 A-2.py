@@ -21,7 +21,7 @@ print(read_text)
 print(len(read_text))
 
 #tokenize the text by sentence
-token_sentence= sent_tokenize(read_text)
+token_sentence= senttokenize(read_text)
 
 #sentence count
 print(len(token_sentence))
@@ -29,6 +29,6 @@ print(len(token_sentence))
 print(token_sentence)
 
 #tokenize the word
-token_words=word_tokenize(read_text)
+token_words=wordtokenize(read_ext)
 
 print(token_words)
